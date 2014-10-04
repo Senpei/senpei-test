@@ -26,6 +26,8 @@
     self.sum = a + b;
     
     NSLog(@"The result is: %d", self.sum);
+    
+    self.view.backgroundColor = [UIColor yellowColor];
 }
 
 - (void)didReceiveMemoryWarning {
