@@ -28,6 +28,9 @@
     NSLog(@"The result is: %d", self.sum);
     
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hello" message:@"c'est une modif" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+    [alert show];
 }
 
 - (void)didReceiveMemoryWarning {
