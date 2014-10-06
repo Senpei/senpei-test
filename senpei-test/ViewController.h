@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 
-// Test Yann
+// Test Yann.
 
 @end
 
